@@ -1,0 +1,50 @@
+.product-edit {
+  display: flex;
+  margin-top: 6em;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.product-edit form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.product-edit label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.product-edit input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.product-edit button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Estilo de botón minimalista y simple */
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 0.9375em;
+  border-radius: 0.75rem;
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-edit button:hover {
+  background-color: #0056b3;
+}
+
+.product-edit .error {
+  color: red;
+}

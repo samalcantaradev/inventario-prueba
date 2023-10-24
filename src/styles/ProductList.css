@@ -1,0 +1,123 @@
+.product-list {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.product-list .top-bar {
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.product-list .search-bar {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em 1em;
+}
+
+.product-list .search-bar input {
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  margin-left: 1em;
+  width: 100%;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.product-list table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 2em;
+}
+
+.product-list th,
+.product-list td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.7em;
+  text-align: left;
+}
+
+.product-list th {
+  background-color: #f8f9fa;
+}
+
+.product-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-list .actions {
+  display: flex;
+  gap: 0.5em;
+}
+
+.product-list .actions a,
+.product-list .actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 0.7em 1.5em;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 0.9375em;
+  border-radius: 0.75rem;
+}
+
+.product-list .actions a:hover,
+.product-list .actions button:hover {
+  background-color: #0056b3;
+}
+
+.product-list .top-bar .add-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 0.7em 1.5em;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 0.9375em;
+  border-radius: 0.75rem;
+}
+
+.product-list .top-bar .add-button:hover {
+  background-color: #0056b3;
+}
+
+.product-list table {
+  max-height: calc(100vh - 10em);
+  overflow-y: auto;
+}
+
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 30%;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 30%;
+}
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 30%;
+}

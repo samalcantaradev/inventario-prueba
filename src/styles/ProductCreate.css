@@ -1,0 +1,48 @@
+.product-create {
+  margin-top: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.product-create form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.product-create label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.product-create input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.product-create button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 0.9375em;
+  border-radius: 0.75rem;
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-create button:hover {
+  background-color: #0056b3;
+}
+
+.product-create .error {
+  color: red;
+}
