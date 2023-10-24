@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# React CRUD - Aplicación de Gestión de Inventario
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicación permite la gestión de un inventario de productos. Puedes crear, leer, actualizar y eliminar productos, así como buscar productos por nombre.
 
-## Available Scripts
+## API
 
-In the project directory, you can run:
+La aplicación se integra con la API REST de productos proporcionada por Nelmix Solutions. Puedes encontrar más detalles sobre la API [aquí](https://github.com/Nelmix-Solutions/Api-PruebaFront).
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para ejecutar la aplicación en tu entorno local, sigue estos pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clona el Repositorio:**
 
-### `npm test`
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Instala las Dependencias:**
 
-### `npm run build`
+   Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema. Luego, ejecuta:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ejecución
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Una vez instaladas las dependencias, inicia la aplicación con:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+La aplicación estará disponible en tu navegador en [http://localhost:3000/](http://localhost:3000/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Uso
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Página de Inicio (Home):** Proporciona una introducción a las funcionalidades de la aplicación y detalles sobre el desarrollador.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Listado de Productos (ProductList):** Permite ver la lista de productos disponibles, buscar por nombre, editar, eliminar y ver detalles de productos individuales.
 
-## Learn More
+- **Crear Producto (ProductCreate):** Permite agregar nuevos productos al inventario.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Editar Producto (ProductEdit):** Permite editar los detalles de un producto existente.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Detalles del Producto (ProductDetail):** Muestra detalles completos de un producto específico.
