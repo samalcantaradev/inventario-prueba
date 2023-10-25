@@ -13,7 +13,7 @@ Para ejecutar la aplicación en tu entorno local, sigue estos pasos:
 1. **Clona el Repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
+   https://github.com/samalcantaradev/inventario-prueba.git
    ```
 
 2. **Instala las Dependencias:**
